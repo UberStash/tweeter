@@ -1,0 +1,11 @@
+nav {
+  font-family: 'Bungee', cursive;
+  color: #FFFFFF;
+  background-color: #4056A1;
+  max-height: 100px;
+  width: 100%;
+  padding: 1.5em;
+  position: fixed;
+  top: 0;
+  overflow: hidden;
+}

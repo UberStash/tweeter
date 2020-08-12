@@ -1,0 +1,16 @@
+.top-header {
+  display: flex;
+
+  /* max-height: 400px; */
+  width: 100%;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #f09000;
+  background-image: url("https://www.transparenttextures.com/patterns/arches.png");
+  color: #FFFFFF;
+  padding-top: 140px;
+  
+  
+  
+}

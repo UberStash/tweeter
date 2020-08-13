@@ -14,3 +14,26 @@
   
   
 }
+
+#form-toggle {
+  float: right; 
+  font-family: Arial, Helvetica, sans-serif; 
+  text-align: center;
+  
+  
+
+}
+
+@keyframes mover {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-10px); }
+}
+#form-toggle:hover {
+  
+  cursor: default;
+  filter: drop-shadow(0 0 5px red);   
+}
+
+#header-button {
+  animation: mover 1s infinite  alternate;
+}

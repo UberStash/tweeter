@@ -1,11 +1,33 @@
 nav {
   font-family: 'Bungee', cursive;
   color: #FFFFFF;
-  background-color: #4056A1;
-  max-height: 100px;
+  flex-wrap: wrap;
+  min-height: 150px;
   width: 100%;
   padding: 1.5em;
-  position: fixed;
-  top: 0;
-  overflow: hidden;
+  background-color: #f09000;
+  background-image: url("https://www.transparenttextures.com/patterns/arches.png");
+}
+
+#form-toggle {
+  float: right; 
+  font-family: Arial, Helvetica, sans-serif; 
+  text-align: center;
+  
+  
+
+}
+
+@keyframes mover {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-10px); }
+}
+#form-toggle:hover {
+  
+  cursor: default;
+  filter: drop-shadow(0 0 5px red);   
+}
+
+#nav-button {
+  animation: mover 1s infinite  alternate;
 }

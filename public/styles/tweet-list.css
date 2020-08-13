@@ -76,3 +76,9 @@ margin: 10px;
 
 }
 
+#tweet-container {
+  justify-content: center;
+  margin: 1em;
+  padding: 1em;
+}
+

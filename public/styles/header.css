@@ -1,18 +1,18 @@
 .top-header {
   display: flex;
-
-  /* max-height: 400px; */
   width: 100%;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
   background-color: #f09000;
   background-image: url("https://www.transparenttextures.com/patterns/arches.png");
   color: #FFFFFF;
-  padding-top: 140px;
+  /* padding-top: 140px; */
   
-  
-  
+}
+
+header > img {
+  padding: 0;
 }
 
 #form-toggle {

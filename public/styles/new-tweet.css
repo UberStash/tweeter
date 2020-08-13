@@ -45,3 +45,9 @@ main button {
 }
 
 
+.new-tweet {
+  width: 90%;
+  margin-left: 2em;
+  
+  padding-right: 1rem;
+}

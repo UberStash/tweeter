@@ -25,13 +25,10 @@ body {
 main {
   flex-direction: column;
   display: inline-flex;
-  width: 90%;
-  margin-left: 5%;
+  width: 100%;
   text-align: center;
   align-content: center;
   background-color: #f4f1ec;
-  
-  
   
 }
 
@@ -40,3 +37,53 @@ main {
 /*
  * Additional CSS can be defined below or in other CSS files, as per instructions
  */
+ 
+ 
+ 
+ 
+ 
+ @media only screen and (min-width: 1024px) {
+  
+  main {
+  display: flex;
+  flex-direction: row;
+  margin-top: 100px;
+  align-content: center;
+}
+
+.tweet-data {
+  width: 90%;
+  align-content: center;
+}
+
+header {
+  margin: 40px;
+  max-height: 500px;
+  align-content: center;
+
+}
+
+
+
+.top-header{
+  margin-top: 140px;
+  padding-top: 15px;
+}
+/* .new-tweet {
+  margin: 1em;
+} */
+
+nav {
+  min-height: 70px !important;
+  max-height: 90px;
+  position: fixed;
+  top: 0;
+  overflow: hidden;
+  background-color: #4056A1 !important;
+  background-image: none !important;
+}
+
+   
+ }
+
+

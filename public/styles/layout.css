@@ -47,31 +47,25 @@ main {
   main {
   display: flex;
   flex-direction: row;
-  margin-top: 100px;
   align-content: center;
+  margin-top: 100px;
 }
 
 .tweet-data {
-  width: 90%;
   align-content: center;
+  width: 90%;
 }
 
 header {
-  margin: 40px;
   max-height: 500px;
   align-content: center;
-
+  margin: 40px;
 }
-
-
 
 .top-header{
   margin-top: 140px;
   padding-top: 15px;
 }
-/* .new-tweet {
-  margin: 1em;
-} */
 
 nav {
   min-height: 70px !important;

@@ -21,13 +21,14 @@ $(document).ready(function() {
     
     $('.error').hide();
     
-    if (input && input.length < 140) {
+    if (input && input.length <= 140) {
       $('.new-tweet').hide();
       const input = $('#text').serialize();
     
     
       $.post('/tweets/', input , (res) => {
         renderTweets();
+        event.target.text.value = '';
       });
     } else if (!input) {
     
@@ -93,15 +94,15 @@ $(document).ready(function() {
       }
     };
 
-    
+    // TWEET TEMPLATE HELPER
     const $tweet = `
       <article class='tweet-list'>
         <span>
           <header class='tweet-list-header'>
             <span class='avatar'><img src = ${tweet.user.avatars}> ${tweet.user.name}</span>
             <a class='handle'>${tweet.user.handle}</a>
-          </header>
-           <p class='tweet-body'>
+              </header>
+                <p class='tweet-body'>
             ${escape(tweet.content.text)} 
           </p>
           <footer class='tweet-list-footer'>

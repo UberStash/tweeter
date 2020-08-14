@@ -2,7 +2,7 @@
   color: red;
 }
 
-main button {
+main > button {
   font-family: 'Bungee', cursive;
   color: #FFFFFF;
   background-color: #4056A1;

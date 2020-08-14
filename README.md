@@ -14,7 +14,7 @@ The entries are real but the user data is generated. All are real time stamps wi
 
 mobile UI
 
- ![ "screenshot of mobile UI"](https://github.com/UberStash/tweeter/blob/master/docs/tweeter3.png?raw=true)
+ ![ "screenshot of mobile UI"](https://github.com/UberStash/tweeter/blob/master/docs/tweeter4.png?raw=true)
 
 
 
